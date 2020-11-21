@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2ac233e1-a5e4-4f7a-abfb-51605f42a8f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +55,7 @@
       <updated>1605766256883</updated>
       <workItem from="1605766257930" duration="13037000" />
       <workItem from="1605835641242" duration="14000" />
-      <workItem from="1605948370509" duration="8867000" />
+      <workItem from="1605948370509" duration="12946000" />
     </task>
     <task id="LOCAL-00001" summary="将render实现">
       <created>1605951369409</created>
@@ -69,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605951389416</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="移动端的页面完成了！">
+      <created>1605959989308</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605959989308</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,25 +86,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="将render实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="将render实现" />
+    <MESSAGE value="移动端的页面完成了！" />
+    <option name="LAST_COMMIT_MESSAGE" value="移动端的页面完成了！" />
   </component>
   <component name="WindowStateProjectService">
     <state x="789" y="258" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605766970640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="789" y="258" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605766970640" />
-    <state x="558" y="81" key="CommitChangelistDialog2" timestamp="1605951388746">
+    <state x="558" y="81" key="CommitChangelistDialog2" timestamp="1605959988529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605951388746" />
+    <state x="558" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605959988529" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605835653848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605835653848" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605951391439">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605959994921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605951391439" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605959994921" />
     <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1605959882631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

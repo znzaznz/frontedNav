@@ -1,12 +1,13 @@
 .siteLink{
-  margin: 30px 20px;
+  margin: 30px auto;
+  max-width: 400px;
   .siteGroup{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 400px;
+    padding: 0 20px;
     li{
-      width: 48%;
+      width: 47%;
       border-radius: 4px;
       background-color: white;
       margin-bottom: 20px;
@@ -32,5 +33,26 @@
       .iconAdd{
         padding: 17px 0 18px;
       }
+  }
+}
+@media (min-width: 600px) {
+  .siteLink{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    .siteGroup{
+      margin-right: -80px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      li{
+        width: 170px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+      }
+      li:hover{
+
+      }
+    }
   }
 }
