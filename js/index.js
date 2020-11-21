@@ -14,14 +14,14 @@ $(document).ready(function (){
 
     let timeOutEvent=0;//定时器
     $(function(){
-        $(".siteGroup").find("li:not(.iconAdd)").find("a").on({
+        $(".siteGroup").find("li:not(.iconAdd)").find(".a").on({
             //手指开始按时设置定时器，超过500毫秒就执行longPress()
             touchstart: function(e){
                 timeOutEvent = setTimeout(()=>{
                     timeOutEvent = 0;
                     //执行长按事件的行为
                     if(window.confirm("确定要删除这个导航吗")){
-                        const  index = hashMap.indexOf(e.currentTarget.getAttribute("href"));
+                        const  index = hashMap.indexOf(e.currentTarget.getAttribute("url"));
                         if (index >= 0){
                             hashMap.splice(index,1);
                         }
@@ -40,12 +40,26 @@ $(document).ready(function (){
             touchend: function(e){
                 clearTimeout(timeOutEvent);
                 if(timeOutEvent !== 0){
-                    window.open(e.currentTarget.href)
+                    window.open(e.currentTarget.getAttribute("url"))
                 }
                 return false;
             }
         })
     });
+    //pc增加点击事件
+    $(".siteGroup").find("li:not(.iconAdd)").find(".a").on("click",(e)=>{
+        window.open(e.currentTarget.getAttribute("url"))
+    }).find(".liSvg").on("click",(e)=>{
+        if(window.confirm("确定要删除这个导航吗")){
+            const  index = hashMap.indexOf(e.currentTarget.getAttribute("url"));
+            if (index >= 0){
+                hashMap.splice(index,1);
+            }
+            render(hashMap);
+        }
+        e.stopPropagation()
+    })
+    //当即将关闭网页的时候存储当前hashMap
     window.onbeforeunload = ()=>{
         localStorage.setItem("hashMap",JSON.stringify(hashMap));
     }
@@ -75,10 +89,15 @@ function render(arr){
     arr.forEach((url)=>{
         let valueUrl =  resolutionOfDomain(url);
         $(`<li>
-                <a href="${url}">
+                <div class="a" url="${url}">
                     <div class="iconSite">${valueUrl[0].toUpperCase()}</div>
                     <div class="iconTags">${valueUrl}</div>
-                </a>
+                    <div class="liSvg">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-delete"></use>
+                        </svg>
+                    </div>
+                </div>
             </li>`).insertBefore(".iconAdd")
         }
     )

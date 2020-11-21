@@ -1,17 +1,14 @@
 .siteLink{
   margin: 30px auto;
-  max-width: 400px;
   .siteGroup{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 20px;
     li{
       width: 47%;
       border-radius: 4px;
       background-color: white;
       margin-bottom: 20px;
-      a{
+      .a,a{
         color: black;
         img{
           width: 64px;
@@ -35,23 +32,48 @@
       }
   }
 }
+@media (max-width: 599px) {
+  .siteLink{
+    max-width: 400px;
+    .siteGroup{
+      justify-content: space-between;
+      padding: 0 20px;
+  .liSvg{
+    display: none;
+  }
+    }
+  }
+}
 @media (min-width: 600px) {
   .siteLink{
-    max-width: 800px;
+    max-width: 960px;
     margin-right: auto;
     margin-left: auto;
     .siteGroup{
-      margin-right: -80px;
+      margin-right: -40px;
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-start;
       li{
-        width: 170px;
+        width: 160px;
         margin-right: 40px;
         margin-bottom: 40px;
+        position: relative;
+        .liSvg{
+          position: absolute;
+          top: 0;
+          right: 4px;
+          font-size: 20px;
+          opacity: 0;
+          &:hover{
+            opacity: 100;
+            transition: opacity 0.5s;
+            color: red;
+          }
+        }
       }
       li:hover{
-
+        cursor: pointer;
       }
     }
   }
