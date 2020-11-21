@@ -53,25 +53,56 @@
       <updated>1605766256883</updated>
       <workItem from="1605766257930" duration="13037000" />
       <workItem from="1605835641242" duration="14000" />
-      <workItem from="1605948370509" duration="2772000" />
+      <workItem from="1605948370509" duration="8867000" />
     </task>
+    <task id="LOCAL-00001" summary="将render实现">
+      <created>1605951369409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605951369409</updated>
+    </task>
+    <task id="LOCAL-00002" summary="将render实现">
+      <created>1605951389416</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605951389416</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="将render实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="将render实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="789" y="258" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605766970640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="789" y="258" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605766970640" />
+    <state x="558" y="81" key="CommitChangelistDialog2" timestamp="1605951388746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605951388746" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605835653848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605835653848" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605949312185">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605951391439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605949312185" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605951391439" />
+    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1605959882631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605959882631" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605958046835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605958046835" />
   </component>
 </project>
