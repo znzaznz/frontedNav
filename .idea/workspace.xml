@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac233e1-a5e4-4f7a-abfb-51605f42a8f1" name="Default Changelist" comment="完成删除操作">
+    <list default="true" id="2ac233e1-a5e4-4f7a-abfb-51605f42a8f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,8 @@
       <updated>1605766256883</updated>
       <workItem from="1605766257930" duration="13037000" />
       <workItem from="1605835641242" duration="14000" />
-      <workItem from="1605948370509" duration="16546000" />
+      <workItem from="1605948370509" duration="16578000" />
+      <workItem from="1606097203962" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="将render实现">
       <created>1605951369409</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605964046683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成删除操作">
+      <created>1605967582645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605967582645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,18 +108,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="789" y="258" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605766970640" />
-    <state x="558" y="81" key="CommitChangelistDialog2" timestamp="1605967516577">
+    <state x="558" y="81" key="CommitChangelistDialog2" timestamp="1605967581794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605967516577" />
+    <state x="558" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605967581794" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605835653848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605835653848" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605964047823">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605967584765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605964047823" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605967584765" />
     <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1605959882631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
