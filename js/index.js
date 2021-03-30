@@ -46,6 +46,7 @@ $(document).ready(function (){
             }
         })
     });
+
     //pc增加点击事件
     $(".siteGroup").find("li:not(.iconAdd)").find(".a").on("click",(e)=>{
         window.open(e.currentTarget.getAttribute("url"))
@@ -59,6 +60,7 @@ $(document).ready(function (){
         }
         e.stopPropagation()
     })
+
     //当即将关闭网页的时候存储当前hashMap
     window.onbeforeunload = ()=>{
         localStorage.setItem("hashMap",JSON.stringify(hashMap));
@@ -107,3 +109,5 @@ function render(arr){
 function resolutionOfDomain(url){
     return url.replace("https://","").replace("www.","")
 }
+
+//给navHeader添加一些动作，使得点击的时候能够显示输入的东西并且用ajax代替之前的代码
